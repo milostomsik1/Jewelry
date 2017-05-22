@@ -1,23 +1,18 @@
-# Bootstrap 4 HTML SCSS template
+# Jewelry
 
-Basic HTML structure with meta tags and Bootstrap JS and JQuery CDN.  
-Basic folder and file structure with linked scss partials.  
-Gulp with autoprefixer, scss to css, html sass and js minifier and live browser reload.  
+PSD to HTML/CSS using design found on the internet.
 
+Built with Bootstrap 4, SCSS and GULP.
+
+Run `npm install` in terminal/cmd for dependencies.
+
+Gulp input folder `src`  
+Gulp output folder `public`
 
 Gulp packages:
-* gulp
-* gulp-uglify
-* gulp-sass
-* gulp-htmlmin
-* gulp-autoprefixer
+* bootstrap: 4.0.0-alpha.6
 * browser-sync
-
-
-Bootstrap version: 4.0.0-alpha.6
-
-
-Usage:
-1. Run `npm install` (only first time) in cmd/terminal to install project dependencies
-2. Run `gulp` in cmd/terminal for automated file building on save and live web server.
-3. ` Src` are source files, `public` are live site deploy files, images go in `public/img`.
+* gulp-autoprefixer
+* gulp-htmlmin
+* gulp-sass
+* gulp-uglify
