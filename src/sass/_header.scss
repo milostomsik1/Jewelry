@@ -5,16 +5,31 @@ header {
 	.container {
 		height: 800px;
 		nav {
+			margin-top: 33px;
+			h4.brand {
+				margin: 0;
+			}
 			a {
 				color: $brand-secondary;
+				font-size: 14px;
 			}
 		}
 		.hero-text {
+			padding-top: 20px;
 			h1 {
 				color: $brand-secondary;
+				margin-bottom: 37px;
+				margin-top: 31px;
+				font-weight: 700;
+				line-height: 1;
 			}
 			h4 {
 				font-weight: 300;
+				margin: 0;
+			}
+			a {
+				padding: 17px 40px;
+				margin-right: 22px;
 			}
 		}
 
