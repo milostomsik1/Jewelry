@@ -1,14 +1,21 @@
 #comments {
 	background-color: $light-gray;
 	min-height: 865px;
-	.comments-title {
-		margin-bottom: 33px;
-	}
-	.comment {
-		padding-top: 42px;
-		padding-bottom: 42px;
-		h5, h6 {
-			margin-bottom: 12px;
+	.container {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		@media (max-width: 767px) {
+			margin-bottom: 0;
+		}
+		.comments-title {
+			margin-bottom: 33px;
+		}
+		.comment {
+			padding-top: 42px;
+			padding-bottom: 42px;
+			h5, h6 {
+				margin-bottom: 12px;
+			}
 		}
 	}
 }

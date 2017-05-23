@@ -1,19 +1,31 @@
 #featured-items-slider {
 	min-height: 620px;
 	background-color: $light-gray;
-	.slider-text {
-		padding: 60px 0;
-		p {
-			margin-bottom: 30px;
-			line-height: 1.7;
+	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		@media (max-width: 767px) {
+			padding-top: 75px;
+			padding-bottom: 25px;
 		}
-		a {
-			padding: 17px 40px;
-			margin-right: 22px;
-			@media (max-width: 991px) {
-				display: block;
-				max-width: 75%;
-				margin: 0 auto;
+		.slider-image {
+			img {
+				max-height: 330px;
+				max-width: 330px;
+			}
+		}
+		.slider-text {
+			padding: 60px 0;
+			p {
+				margin-bottom: 30px;
+				line-height: 1.7;
+			}
+			a {
+				padding: 17px 40px;
+				margin-right: 22px;
+				@media (max-width: 767px) {
+					display: block;
+				}
 			}
 		}
 	}

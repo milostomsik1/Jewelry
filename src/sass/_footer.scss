@@ -2,10 +2,43 @@ footer {
 	background-color: $dark-gray;
 	color: $medium-gray;
 	min-height: 338px;
-	a {
-		color: inherit;
-		&:hover {
-			color: $medium-gray;
+	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.brand-and-social {
+			margin-bottom: 50px;
+			.brand {
+
+			}
+			.social {
+				@media (max-width: 575px) {
+					margin-top: 15px;
+				}
+				a {
+					color: $medium-gray;
+					padding: 0 10px;
+					&:hover {
+						color: $light-gray;
+					}
+				}
+			}
+		}
+		.footer-nav {
+			li.nav-link {
+				padding-left: 0;
+				a {
+					color: inherit;
+					&:hover {
+						color: $light-gray;
+					}
+				}
+			}
+			.copyright {
+				p {
+					margin-bottom: 0;
+					margin-top: 50px;
+				}
+			}
 		}
 	}
 }

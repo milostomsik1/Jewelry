@@ -4,8 +4,10 @@ header {
 	background-size: cover;
 	.container {
 		min-height: 800px;
+		// min-height: 100vh;
 		@media (max-width: 575px) {
 			min-height: 100vh;
+			height: 100%;
 		}
 		nav {
 			margin-top: 33px;

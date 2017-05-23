@@ -1,15 +1,23 @@
 #why-choose-us {
 	min-height: 510px;
-	.why-choose-us-title {
-		h2 {
-			line-height: 1.25;
+	.container {
+		padding-top: 50px;
+		.why-choose-us-title {
+			h2 {
+				line-height: 1.25;
+				width: 100%;
+			}
 		}
-	}
-	.why-choose-us-item {
-		padding-top: 29px;
-		padding-bottom: 29px;
-		h5 {
-			margin-bottom: 17px;
+		.why-choose-us-items {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			.why-choose-us-item {
+				padding-top: 29px;
+				padding-bottom: 29px;
+				h5 {
+					margin-bottom: 17px;
+				}
+			}
 		}
 	}
 }

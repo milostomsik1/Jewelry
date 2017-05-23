@@ -1,11 +1,13 @@
 #how-it-works {
 	min-height: 969px;
 	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
 		.how-it-works-title {
 			margin-bottom: 140px;
 		}
 		.how-it-works-items {
-			.col-md-4 {
+			.how-it-works-item  {
 				padding-bottom: 30px;
 				padding-top: 30px;
 				img {
@@ -13,6 +15,9 @@
 				}
 				h5 {
 					margin-bottom: 25px;
+				}
+				p {
+					margin-bottom: 0;
 				}
 			}
 		}

@@ -18,10 +18,13 @@
 				padding-right: 15px;
 				width: 100%;
 				line-height: 1.25;
+				@media (max-width: 767px) {
+					padding-right: 0;
+				}
 			}
 			@media (max-width: 767px) {
 				order: 1;
-				padding-top: 50px;
+				padding-top: 75px;
 			}
 		}
 		.photoblog-text {
