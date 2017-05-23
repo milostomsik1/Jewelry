@@ -1,0 +1,15 @@
+#history {
+	border-bottom: 1px solid $lightest-gray;
+	.row {
+		min-height: 586px;
+		h2 {
+			line-height: 1.3;
+		}
+		p {
+			line-height: 1.9;
+			&:first-child {
+				margin-bottom: 38px;
+			}
+		}
+	}
+}

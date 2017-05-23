@@ -1,0 +1,14 @@
+#featured-items-slider {
+	min-height: 620px;
+	background-color: $light-gray;
+	.slider-text {
+		p {
+			margin-bottom: 30px;
+			line-height: 1.7;
+		}
+		a {
+			padding: 17px 40px;
+			margin-right: 22px;
+		}
+	}
+}
