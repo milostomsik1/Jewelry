@@ -1,0 +1,36 @@
+#our-jewelry {
+	min-height: 750px;
+	.container {
+		padding-bottom: 50px;
+		.our-jewelry-images {
+			img {
+				width: 100%;
+				height: auto;
+				@media (max-width: 575px) {
+					width: 80%;
+					margin: 20px auto;
+				}
+			}
+		}
+		.our-jewelry-title {
+			h2 {
+				padding-left: 15px;
+				padding-right: 15px;
+				width: 100%;
+				line-height: 1.25;
+				@media (max-width: 767px) {
+					padding-top: 50px;
+				}
+			}
+		}
+		.our-jewelry-text {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			p {
+				margin-top: 25px;
+				margin-bottom: 0;
+				line-height: 1.9;
+			}
+		}
+	}
+}

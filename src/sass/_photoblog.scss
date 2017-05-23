@@ -1,0 +1,37 @@
+#photoblog {
+	min-height: 887px;
+	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.photoblog-images {
+			img {
+				width: 100%;
+				height: auto;
+				@media (max-width: 575px) {
+					width: 80%;
+					margin: 20px auto;
+				}
+			}
+		}
+		.photoblog-title {
+			h2 {
+				padding-right: 15px;
+				width: 100%;
+				line-height: 1.25;
+			}
+			@media (max-width: 767px) {
+				order: 1;
+				padding-top: 50px;
+			}
+		}
+		.photoblog-text {
+			margin-top: 25px;
+			margin-bottom: 25px;
+			p {
+				margin-top: 25px;
+				margin-bottom: 0;
+				line-height: 1.9;
+			}
+		}
+	}
+}

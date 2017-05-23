@@ -3,7 +3,10 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	.container {
-		height: 800px;
+		min-height: 800px;
+		@media (max-width: 575px) {
+			min-height: 100vh;
+		}
 		nav {
 			margin-top: 33px;
 			h4.brand {
@@ -16,21 +19,35 @@ header {
 		}
 		.hero-text {
 			padding-top: 20px;
-			h1 {
-				color: $brand-secondary;
-				margin-bottom: 37px;
-				margin-top: 31px;
-				font-weight: 700;
-				line-height: 1;
-			}
-			h4 {
-				font-weight: 300;
-				margin: 0;
+			hgroup {
+				h1 {
+					color: $brand-secondary;
+					margin-bottom: 37px;
+					margin-top: 31px;
+					font-weight: 700;
+					line-height: 1;
+					@media (max-width: 575px) {
+						margin-bottom: 60px;
+						font-size: calc(6.5vw + 20px);
+					}
+				}
+				h4 {
+					font-weight: 300;
+					margin: 0;
+					@media (max-width: 575px) {
+						font-size: calc(2.4vw + 10px);
+					}
+				}
 			}
 			a {
 				padding: 17px 40px;
 				margin-right: 22px;
+				@media (max-width: 575px) {
+					display: block;
+					margin: 25px;
+				}
 			}
+
 		}
 
 	}
