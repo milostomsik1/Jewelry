@@ -4,8 +4,7 @@ header {
 	background-size: cover;
 	.container {
 		min-height: 800px;
-		// min-height: 100vh;
-		@media (max-width: 575px) {
+		@media (max-width: 767px) {
 			min-height: 100vh;
 			height: 100%;
 		}
@@ -14,22 +13,38 @@ header {
 			h4.brand {
 				margin: 0;
 			}
-			a {
-				color: $brand-secondary;
-				font-size: 14px;
+			ul {
+				@media (max-width: 767px) {
+					padding-top: 50px;
+				}
+				@media (max-width: 575px) {
+					padding-top: 25px;
+					width: 250px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+				a {
+					color: $brand-secondary;
+					font-size: 14px;
+					&:hover {
+						color: $brand-primary;
+					}
+				}
 			}
 		}
 		.hero-text {
 			padding-top: 20px;
 			hgroup {
+				margin-bottom: 37px;
+				@media (max-width: 575px) {
+					margin-bottom: 50px;
+				}
 				h1 {
 					color: $brand-secondary;
-					margin-bottom: 37px;
 					margin-top: 31px;
 					font-weight: 700;
 					line-height: 1;
 					@media (max-width: 575px) {
-						margin-bottom: 60px;
 						font-size: calc(6.5vw + 20px);
 					}
 				}
@@ -46,7 +61,7 @@ header {
 				margin-right: 22px;
 				@media (max-width: 575px) {
 					display: block;
-					margin: 25px;
+					margin: 3vh 25px;
 				}
 			}
 

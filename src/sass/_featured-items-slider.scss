@@ -12,6 +12,10 @@
 			img {
 				max-height: 330px;
 				max-width: 330px;
+				@media (max-width: 575px) {
+					max-width: 100%;
+					height: auto;
+				}
 			}
 		}
 		.slider-text {
